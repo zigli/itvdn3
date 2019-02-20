@@ -15,5 +15,7 @@ public class Main {
         };
 
         instance.method();
+
+        System.out.println(instance.getClass().toString());
     }
 }
